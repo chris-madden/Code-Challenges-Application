@@ -5,6 +5,7 @@ package com.challenges;
 */
 public class ProblemChallenge extends ChallengeFactory
 {
+    // Takes the challenges types and creates object based on it's name
     protected Challenge createChallenge(String challengeType)
     {
         if (challengeType.equals("SearchInsertPosition"))

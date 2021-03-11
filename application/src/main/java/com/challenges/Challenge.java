@@ -6,7 +6,9 @@ public abstract class Challenge
     protected String name;
     protected String description;
 
-    protected abstract int solveChallenge();
+    public abstract void solveChallenge();
+
+    public abstract String getResult();
 
     public String getName()
     {
